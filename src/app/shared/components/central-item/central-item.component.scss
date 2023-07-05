@@ -1,0 +1,40 @@
+.mat-expansion-panel {
+    padding: .25em;
+}
+
+.reference {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.service__state {
+    background-color: #7bf087;
+    padding: .25rem .5rem;
+    border-radius: 15px;
+    margin-left: auto;
+}
+
+.informations {
+    display: flex;
+
+}
+
+.floor__container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+}
+
+.photos {
+    display: flex;
+    gap: .5rem;
+    margin-top: .75rem;
+    overflow-x: visible !important;
+}
+
+img {
+    width: 5em;
+    height: 5em;
+}
