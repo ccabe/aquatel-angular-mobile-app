@@ -9,7 +9,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatTooltipModule } from '@angular/material/tooltip';
-import { SharedModule } from '../shared/shared.module';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [],
@@ -24,6 +24,20 @@ import { SharedModule } from '../shared/shared.module';
     MatExpansionModule,
     MatSnackBarModule,
     MatTooltipModule,
+    MatCardModule,
+  ],
+  exports: [
+    CommonModule,
+    MatAutocompleteModule,
+    MatBadgeModule,
+    MatButtonModule,
+    MatDatepickerModule,
+    MatDialogModule,
+    MatFormFieldModule,
+    MatExpansionModule,
+    MatSnackBarModule,
+    MatTooltipModule,
+    MatCardModule,
   ],
 })
 export class MaterialModule {}
